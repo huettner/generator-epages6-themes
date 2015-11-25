@@ -1,0 +1,32 @@
+{
+  "name": "generator-epages6theme",
+  "version": "0.0.4",
+  "description": "ePages 6 Themetools Generator",
+  "main": "app/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/huettner/generator-epages6/tree/task/generator-epages6-themes"
+  },
+  "files": [
+    "app",
+    "brand",
+    "vm",
+    "watch",
+    "themes",
+    "themename",
+    "themetools",
+    "logo.js",
+    "config.js"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "chalk": "^1.1.0",
+    "fs-extra": "^0.22.1",
+    "lodash": "^3.10.0",
+    "osenv": "^0.1.3",
+    "simple-ssh": "^0.8.6",
+    "yeoman-generator": "^0.21.1"
+  }
+}
