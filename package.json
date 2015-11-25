@@ -5,7 +5,7 @@
   "main": "app/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/huettner/generator-epages6/tree/task/generator-epages6-themes"
+    "url": "https://github.com/ePages-rnd/generator-epages6-themes"
   },
   "files": [
     "app",

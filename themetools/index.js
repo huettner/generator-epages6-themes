@@ -17,7 +17,7 @@ module.exports = generator.Base.extend({
         var self = this,
             done = this.async();
 
-        this.remote('huettner', 'themetools', 'master', function (err, remote) {
+        this.remote('ePages-rnd', 'themetools', 'master', function (err, remote) {
             if (err) {
                 throw new Error(err);
             }

@@ -27,4 +27,4 @@ Set the VM configuration
 Set the theme-folder
 
 ``yo epages6theme:themetools``
-Installs the [ePages6 Themetools](https://github.com/huettner/themetools)
+Installs the [ePages6 Themetools](https://github.com/ePages-rnd/themetools)
