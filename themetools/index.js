@@ -9,6 +9,7 @@ module.exports = generator.Base.extend({
     clean: function () {
         fs.removeSync(this.destinationPath('gulpfile.js'));
         fs.removeSync(this.destinationPath('package.json'));
+        fs.removeSync(this.destinationPath('config.js'));
         fs.removeSync(this.destinationPath('lib'));
         fs.removeSync(this.destinationPath('node_modules'));
     },
