@@ -1,6 +1,6 @@
 {
   "name": "generator-epages6theme",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ePages 6 Themetools Generator",
   "main": "app/index.js",
   "repository": {
