@@ -25,7 +25,7 @@ module.exports = generator.Base.extend({
             self.fs.copy(path.resolve(remote.cachePath, 'gulpfile.js'), self.destinationPath('gulpfile.js'));
             self.fs.copy(path.resolve(remote.cachePath, 'package.json'), self.destinationPath('package.json'));
             self.fs.copy(path.resolve(remote.cachePath, 'lib'), self.destinationPath('lib'));
-            self.fs.copy(path.resolve(remote.cachePath, 'config.json'), self.destinationPath('config.json'));
+            self.fs.copy(path.resolve(remote.cachePath, 'config.js'), self.destinationPath('config.js'));
             done();
         }, true);
     },
