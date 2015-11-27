@@ -11,7 +11,7 @@ module.exports = generators.Base.extend({
     },
     setThemes: function () {
         var done = this.async;
-        this.composeWith('epages6theme:themes').on('end', done);
+        this.composeWith('epages6theme:themefolder').on('end', done);
     },
     setThemeName: function () {
         var done = this.async;
